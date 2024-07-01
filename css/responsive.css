@@ -1,0 +1,378 @@
+@media(max-width:479px){
+    
+/* ####################### BACKGROUND START ###################### */
+
+#header .background{
+    height: 700px;
+}
+#header .background .bg-ovarlay{
+    height: 700px;
+}
+#header .background .bg-ovarlay .overlay-box{
+    display: none;
+}
+/* #################### NAVBAR START ########################### */
+
+#header .background .navbar{ 
+    height: 700px;   
+}
+
+
+#header .background .navbar .logo{
+    width: 100%;
+    height: 100px;
+}
+
+#header .background .navbar .logo img{
+    width: 40%;
+    display: block;
+    margin:20px auto;
+}
+#header .background .navbar .nav{
+    width: 100%;
+    height: 600px;
+    float: none;    
+}
+
+#header .background .navbar .nav ul li{
+    list-style-type: none;
+    text-align: center;
+}
+
+#header .background .navbar .nav ul li a{
+    float: none;
+    line-height: 70px; 
+}
+#header .background .navbar .text-box{
+    width: 100%;
+    height: 100px;
+    float: none;
+    line-height: 100px;
+    font-size: 22px;
+    padding-left: 25px;
+    text-align: center;
+}
+
+/* ########################   START ABOUT  #####################  */
+
+#about .about .activities{
+    border: 0px solid black;
+    width: 100%;
+    float: none;
+	padding:0px 25px;
+}
+
+
+#about .about .video{
+    border: 0px solid black;
+    width: 100%;
+    float: none;
+    padding: 0px 0px;
+}
+/* ########################### CATEGORIES ##################### */
+
+
+#categories .categories .box{
+    width: 100%;
+    height: 280px;
+    float: none;
+    margin: 10px 0px;
+}  
+
+
+/*  ############################## START PRODUCT ##################################  */
+
+#product .product ul li{
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+    float: none;    
+}
+
+#product .product .box{
+    width: 100%;
+    float: none;
+    margin: 10px 0px;
+}
+#product .product ul{
+    padding: 0% 0%;
+}
+
+/* ################################# START VIDEO  ###################################  */
+
+#videos .videos .video-box{
+    width: 100%;
+    margin:10px 0px;
+}
+
+#videos .videos .video-box video{
+    width: 100%;
+    height: 100%;
+}
+/*  ################################ START CONTACT  ##############################  */
+
+
+#contact .contact .mainbox{    
+    margin: 0px;    
+}
+
+#contact .contact .mainbox .icon{    
+    float: none;
+    display: block;
+    margin: auto;
+    
+}
+#contact .contact .mainbox .c-detalis{
+    border: 0px solid yellow;
+    width: 100%;
+    height: auto;
+    float: left;
+    line-height: 16px;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 10px;
+ 
+}
+
+/* #################################### START GET A QUATE  ###################################   */
+#getaquate .get-a-quate .map{
+    height: 250px;
+    width: 100%;
+    float: none;
+}
+
+#getaquate .get-a-quate .quate-box{
+    width: 100%;
+    float: none;
+
+}
+#getaquate .get-a-quate .quate-box input{
+    margin: 15px 0px;
+    width: 100%;
+}
+
+#getaquate .get-a-quate .quate-box textarea{
+    margin: 15px 0px;
+    width: 100%;
+    
+}
+
+
+
+#getaquate .get-a-quate .quate-box #send-message{
+    padding: 15px ;
+    margin: 0px 85px;
+}
+
+
+
+}
+@media(min-width:480px) and (max-width:574px){
+}
+@media(min-width:575px) and (max-width:767px){
+}
+@media(min-width:768px) and (max-width:991px){
+	/* ####################### BACKGROUND START ###################### */
+
+#header .background{
+    height: 600px;
+}
+#header .background .bg-ovarlay{
+    height: 600px;
+}
+#header .background .bg-ovarlay .overlay-box{
+    display: block;
+}
+/* #################### NAVBAR START ########################### */
+
+#header .background .navbar{ 
+    height: 600px;   
+}
+
+
+#header .background .navbar .logo{
+    width: 100%;
+    height: 100px;
+}
+
+#header .background .navbar .logo img{
+    width: 22%;
+    display: block;
+    margin:20px auto;
+}
+#header .background .navbar .nav{
+    width: 100%;
+    height: 500px;
+    float: none;    
+}
+
+#header .background .navbar .nav ul li{
+    list-style-type: none;
+    text-align: center;
+}
+
+#header .background .navbar .nav ul li a{
+    float: left;
+	font-size:13px;
+    line-height: 70px; 
+}
+#header .background .navbar .text-box{
+    width: 100%;
+    height: 100px;
+    float: none;
+    line-height: 100px;
+    font-size: 22px;
+    padding-left: 25px;
+    text-align: center;
+}
+#header .background .navbar .text-box input{
+	width:50%;
+	height:40px;
+}
+
+
+#about .about .activities{
+    border: 0px solid black;
+    width: 100%;
+    float: none;
+	padding:0px 25px;
+}
+
+
+#about .about .video{
+    border: 0px solid black;
+    width: 100%;
+    float: none;
+    padding: 0px 0px;
+}
+
+/* ########################### CATEGORIES ##################### */
+
+
+#categories .categories .box{
+    width: 46%;
+    height: 280px;
+    float: left;
+    margin: 10px 10px;
+}  
+
+/*  ############################## START PRODUCT ##################################  */
+
+#product .product ul li{    
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 15px;
+    float: left;    
+}
+
+#product .product .box{
+    width: 46%;
+    float: left;
+    margin: 10px 10px;
+    height: 280px;
+}
+#product .product ul{
+    padding: 0% 0%;
+}
+
+/* ################################# START VIDEO  ###################################  */
+#videos .videos .video-box{
+    width: 30%;
+    margin:0px 10px;
+}
+
+#videos .videos .video-box video{
+    width: 100%;
+    height: 100%;
+}
+
+/* #################################### START GET A QUATE  ###################################   */
+#getaquate .get-a-quate .map{
+    height: 400px;
+    width: 100%;
+    float: none;
+}
+
+#getaquate .get-a-quate .quate-box{
+    width: 100%;
+    float: none;
+
+}
+#getaquate .get-a-quate .quate-box input{
+    margin: 15px 0px;
+    width: 100%;
+}
+
+#getaquate .get-a-quate .quate-box textarea{
+    margin: 15px 0px;
+    width: 100%;
+    
+}
+
+
+
+#getaquate .get-a-quate .quate-box #send-message{
+    padding: 15px ;
+    margin: 0px 260px;
+}
+
+}
+@media(min-width:992px) and (max-width:1024px){
+
+/* ####################### BACKGROUND START ###################### */
+
+/* #################### NAVBAR START ########################### */
+
+#header .background .navbar .nav ul li a{
+    padding-left: 8px;
+    padding-right: 8px;
+	font-size:13px;
+}
+
+
+#header .background .navbar .text-box input{
+	width:70%;
+}
+#header .background .navbar .text-box .fa-search{
+    padding-left: 5px;
+    
+}	
+
+/* ########################### CATEGORIES ##################### */
+
+
+#categories .categories .box{
+    width: 31%;
+    height: 240px;
+    float: left;
+    margin: 10px 10px;
+}  
+
+/*  ############################## START PRODUCT ##################################  */
+
+#product .product .box{  
+    height: 280px;
+}
+#product .product ul{
+    padding: 0% 12%;
+}
+
+    /*  ############################## START GET A QUATE ##################################  */
+
+
+#getaquate .get-a-quate .quate-box #send-message{
+    padding: 15px ;
+    margin: 0px 150px;
+}
+
+
+}
+@media(min-width:1025px){
+}
+
+
+
+
+
+

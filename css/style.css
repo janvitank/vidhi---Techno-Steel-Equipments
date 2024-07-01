@@ -1,0 +1,544 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+@font-face {
+    font-family: txtHeading;
+    src: url('../fonts/Cormorant_Garamond/CormorantGaramond-Bold.ttf');
+}
+@font-face {
+    font-family: txtContent;
+    src: url('../fonts/Proza_Libre/ProzaLibre-Regular.ttf');
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: txtHeading;
+}
+p,span,a,li{
+    font-family: txtContent;
+}
+.txtHeading{
+    font-family: txtHeading;
+}
+.txtContent{
+    font-family: txtContent;
+}
+.wrapper{
+    width: 90%;
+    margin: auto;
+}
+.top{
+    border: 0px solid blue;
+    width: 100%;
+    text-align: right;
+    font-size: 32px;
+}
+.fa-chevron-circle-up{
+    color: black;
+}
+/* ####################### BACKGROUND START ###################### */
+
+#header{
+    border: 0px solid blue;
+}
+
+#header .background{
+    width: 100%;
+    height: 650px;
+    border: 0px solid green;     
+    position: relative;  
+    background: url(../image/3-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;     
+}
+#header .background .bg-ovarlay{
+    width: 100%;
+    height: 650px;
+    border: 0px solid blue;
+    position: absolute;
+    background-color: rgba(0,0,0,0.6);
+    
+}
+#header .background .bg-ovarlay .overlay-box{
+    border: 0px solid red;
+    width: 50%;
+    height: 200px;
+    display: block;
+    position: absolute;
+    top: calc(50% - 100px);
+    left: calc(50% - 25%);
+}
+#header .background .bg-ovarlay .overlay-box h1{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    letter-spacing: 1.5px;
+}
+
+#header .background .bg-ovarlay .overlay-box button{
+    padding: 20px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    font-size: 15px;
+    border: 1px solid white;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+/* #################### NAVBAR START ########################### */
+
+#header .background .navbar{
+    width: 100%;
+     height: 100px;
+    border: 0px solid red;
+    z-index: 1;
+   
+}
+#header .background .navbar::before,
+#header .background .navbar::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#header .background .navbar .logo{
+    width: 15%;
+    height: 100px;
+    border: 0px solid blue;
+    float: left;
+}
+
+#header .background .navbar .logo img{
+    width: 80%;
+    display: block;
+    margin:20px auto;
+
+}
+#header .background .navbar .nav{
+    width: 65%;
+    height: 100px;
+    border: 0px solid red;
+    float: left;
+    
+}
+
+#header .background .navbar .nav ul li{
+    list-style-type: none;
+}
+
+#header .background .navbar .nav ul li a{
+    text-decoration: none;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 100px; 
+    color: white;
+    border: 0px solid black;
+    z-index: 1;
+}
+#header .background .navbar .nav ul li a:hover{
+    color: red;
+}
+#header .background .navbar .nav ul li a.active{
+    color: red;
+}
+#header .background .navbar .text-box{
+    width: 20%;
+    height: 100px;
+    border: 0px solid blue;
+    float: left;
+    line-height: 100px;
+    font-size: 22px;
+    padding-left: 25px;
+}
+#header .background .navbar .text-box .fa-search{
+    padding-left: 5px;
+	color:#fff;
+    
+}
+
+/* ########################   START ABOUT  #####################  */
+
+#about{
+
+}
+#about .about{
+    border: 0px solid black;
+    width: 100%;
+}
+
+#about .about::before,
+#about .about::after{
+	content:"";
+	display:block;
+	clear:both;
+}
+
+#about .about h1{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 35px;
+}
+
+
+#about .about p{
+    text-align: center;
+	padding:25px 0px;
+	text-align:justify;
+}
+
+
+#about .about .activities{
+    border: 0px solid black;
+    width: 50%;
+    float: left;
+}
+
+
+#about .about .video{
+    border: 0px solid black;
+    width: 50%;
+    float: left;
+    padding: 15px 50px;
+}
+
+  
+/* ########################### CATEGORIES ##################### */
+
+#categories{
+
+}
+
+#categories .categories{
+    border: 0px solid black;
+    width: 100%;
+	padding:25px 0px;
+}
+#categories .categories::before,
+#categories .categories::after{
+	content:"";
+	display:block;
+	clear:both;
+}
+#categories .categories h1{
+    font-size: 30px;
+    text-align: center;
+}
+#categories .categories .box{
+    border: 2px solid black;
+    width: 15%;
+    height: 180px;
+    float: left;
+    margin: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    
+}
+
+
+
+
+/*  ############################## START PRODUCT ##################################  */
+
+#product{
+   
+}
+
+#product .product{
+    border: 0px solid green;
+    width: 100%;    
+}
+
+#product .product h1{
+    font-size: 32px;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 10px;
+}
+
+#product .product .item-menu{
+   
+}
+#product .product .item-menu::before,
+#product .product .item-menu::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+#product .product ul{
+    border: 0px solid red;
+    width: 100%;
+    padding: 0% 20%;
+}
+
+#product .product ul li{
+    list-style-type: none;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 22px;
+    border: 2px solid black;
+    float: left;
+    cursor: pointer;
+    
+}
+#product .product li:hover{
+    background-color: red;
+}
+
+#product .product .box{
+    border: 0px solid black;
+    height: 340px;
+    width: 30%;
+    float: left;
+    margin: 14px;
+    position: relative;
+    cursor: pointer;
+}
+
+#product .product .box  img{
+    height: 100%;
+    width: 100%;
+}
+
+#product .product .product-overlay{
+    height: 100%;
+    width: 100%;
+    border: 0px solid black;
+    background-color: rgba(0,0,0,0.9);
+    float: left;
+    margin: 0px;
+    text-align: center; 
+    position: absolute;
+    top: 0px;
+    display: none;
+}
+
+#product .product .box:hover .product-overlay
+{
+    display: block;
+}
+
+#product .product .product-overlay  h3{
+    font-weight: 300;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+#product .product .product-overlay h4{
+    color: white;
+    padding-bottom: 20px;
+}
+
+#product .product .product-overlay .fa{
+    color: white;
+    padding-bottom: 20px;
+}
+
+#product .product .product-overlay .btn-d{
+    padding: 7px;
+    margin-top: 10px;
+}
+
+#product .product .product-overlay .btn-d:hover{
+    background-color: red ;
+}
+
+/* ################################# START VIDEO  ###################################  */
+#videos{
+
+}
+
+#videos .videos{
+    border: 0px solid black;    
+    width: 100%;
+    padding: 20px 0px;
+}
+#videos .videos::before,
+#videos .videos::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#videos .videos h1{
+    font-size: 32px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+#videos .videos .video-box{
+    border: 0px solid red;
+    width: 30%;
+    height: 210px;
+    float: left;
+    margin:0px 14px;
+}
+
+#videos .videos .video-box video{
+    width: 100%;
+    height: 100%;
+}
+
+/*  ################################ START CONTACT  ##############################  */
+
+#contact .contact{
+    border: 0px solid blue;
+    width: 100%;    
+}
+#contact .contact h1{
+    font-size: 32px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+#contact .contact .mainbox{
+    border: 0px solid green;
+    width: 100%;
+    margin: 15px;
+    
+}
+#contact .contact .mainbox::before,
+#contact .contact .mainbox::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+#contact .contact .mainbox .icon{
+    border: 0px solid blue;
+    width: 20%;
+    height: 80px;
+    float: left;
+}
+#contact .contact .mainbox .icon .circle{
+    border: 2px solid black;
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+#contact .contact .mainbox .icon .circle .fa{
+    line-height: 60px;
+    font-size: 30px;
+}
+#contact .contact .mainbox .icon .circle .fa:hover{
+    background-color: red;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+}
+#contact .contact .mainbox .c-detalis{
+    border: 0px solid yellow;
+    width: 80%;
+    height: 80px;
+    float: left;
+    line-height: 80px;
+   
+}
+#contact .contact .mainbox .c-detalis a{
+    text-decoration: none;
+    color: black;
+}
+#contact .contact .mainbox .c-detalis a:hover{
+    color: red;
+}
+/* #################################### START GET A QUATE  ###################################   */
+#getaquate{
+
+}
+
+#getaquate .get-a-quate{
+    border: 0px solid black;
+    width: 100%;
+}
+#getaquate .get-a-quate::before,
+#getaquate .get-a-quate::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#getaquate .get-a-quate .map{
+    border: 0px solid red;
+    height: 450px;
+    width: 50%;
+    float: left;
+    margin-top: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#getaquate .get-a-quate .quate-box{
+    border: 0px solid red;
+    height: 450px;
+    width: 50%;
+    float: left;
+    margin-top: 30px;
+    padding-left: 0px;
+
+}
+#getaquate .get-a-quate .quate-box input{
+    margin: 15px;
+    height: 40px;
+    width: 95%;
+    font-size: 12px;
+    color: gray;
+    padding-left: 20px;
+
+}
+
+#getaquate .get-a-quate .quate-box textarea{
+    margin: 15px;
+    height: 140px;
+    width: 95%;
+    font-size: 14px;
+    color: gray;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+
+#getaquate .get-a-quate .quate-box #send-message{
+    padding: 15px;
+    font-size: 14px;
+    border-radius: 25px;
+    margin: 0px 200px;
+    text-align: center;
+}
+
+#getaquate .get-a-quate .quate-box #send-message:hover{
+    background-color: red;
+}
+
+/* ############################# START FOOTER  #####################################  */
+
+#footer{
+
+}
+
+#footer .footer{
+    border: black 0px solid;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    word-spacing: 2px;
+    padding: 30px;
+}
+
+#footer .footer p span{
+    font-weight: bold;
+}

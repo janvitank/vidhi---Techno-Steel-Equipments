@@ -1,0 +1,5 @@
+space cadet	 #2b2d42
+manatee		#8D99AE
+cultured	#EDF2F4
+imperial red	#EF233C
+amaranth red	#D90429

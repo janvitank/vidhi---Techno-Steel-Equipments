@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.wrapper{
+    width: 90%;
+    margin: auto;
+}
+#product{
+   
+}
+
+#product .product{
+    border: 2px solid black;
+    width: 100%;
+    height: 1500px;
+}
+
+#product .product h1{
+    font-size: 32px;
+    text-align: center;
+    padding-top: 14px;
+    
+}
+
+#product .product ul{
+     border: 0px solid black;
+     height: 60px;
+}
+
+#product .product ul li{
+    list-style-type: none;
+    
+}
+
+#product .product ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 20px;
+    border: 2px solid black;
+    color: black;
+    float: left;
+}
+#product .product ul li a:hover{
+    background-color: red;
+}
+
+#product .product .box{
+    border: 2px solid black;
+    height: 340px;
+    width: 30%;
+    float: left;
+    margin: 14px;
+    position: relative;
+}
+
+#product .product .box  img{
+    height: 100%;
+    width: 100%;
+}
+
+#product .product .product-overlay{
+    height: 340px;
+    width: 363px;
+    border: 0px solid black;
+    background-color: rgba(0,0,0,0.9);
+    float: left;
+    margin: 0px;
+    text-align: center; 
+    position: absolute;
+    top: 0px;
+    display: none;
+}
+
+#product .product .box:hover .product-overlay
+{
+    display: block;
+}
+
+#product .product .product-overlay  h3{
+    font-weight: 300;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+#product .product .product-overlay h4{
+    color: white;
+    padding-bottom: 20px;
+}
+
+#product .product .product-overlay .fa{
+    color: white;
+    padding-bottom: 20px;
+}
+
+#product .product .product-overlay .btn-d{
+    padding: 7px;
+    margin-top: 10px;
+}
+
+#product .product .product-overlay .btn-d:hover{
+    background-color: red ;
+}
+
+
+    </style>
+</head>
+<body>
+    <section id="product">
+
+        <div class="product">
+
+            <div class="wrapper">
+
+                <h1>PRODUCT</h1><br>
+                <ul>
+                    <li><a href="#" > KITCHEN SUPPLY STORE</a></li>
+                    <li><a href="#" > STAINLESS STEEL UTENSILS</a></li>
+                    <li><a href="#" >FOOD PROCESSING MACHINE</a></li>
+                    <li><a href="#" > PLANT MACHINERY EQUIPMENT</a></li>
+                    <li><a href="#" > PACKING MACHINE</a></li>
+                    <li><a href="#" > DOMESTIC</a></li>
+                </ul>
+
+                <div class="box"><img src="image/p1.jpg">
+                    <div class="product-overlay">
+                        <h3>AUTOMATIC CHAPATI MACHINE</h3>
+                        <h4>( KITCHEN SUPPLY STORE)</h4>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i><br>
+                        <button class="btn-d">Read More</button>
+                    </div>
+                    <!--End of product-overlay-->
+                </div>
+                <!--End of box-->
+
+
+                <div class="box"><img src="image/p2.jpg">
+                    <div class="product-overlay">
+                        <h3>FINGER CHIPS CUTTER</h3>
+                        <h4>(STAINLESS STEEL UTENSILS)</h4>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i><br>
+                        <button class="btn-d">Read More</button>
+                    </div>
+                    <!--End of product-overlay-->
+                </div>
+                <!--End of box-->
+
+                <div class="box"><img src="image/p3.jpg">
+                    <div class="product-overlay">
+                        <h3>TABLE TOP FLOUR MILL ELECTRIC</h3>
+                        <h4>(FOOD PROCESSING MACHINE)</h4>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i><br>
+                        <button class="btn-d">Read More</button>
+                    </div>
+                    <!--End of product-overlay-->
+                </div>
+                <!--End of box-->
+
+
+
+                <div class="box"><img src="image/p4.jpg">
+                    <div class="product-overlay">
+                        <h3> VEGETABLE CUTTING MACHINE</h3>
+                        <h4>(PLANT MACHINERY EQUIPMENT)</h4>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i><br>
+                        <button class="btn-d">Read More</button>
+                    </div>
+                    <!--End of product-overlay-->
+                </div>
+                <!--End of box-->
+
+
+                <div class="box"><img src="image/p5.jpg">
+                    <div class="product-overlay">
+                        <h3>DECK OVEN</h3>
+                        <h4>(PACKING MACHINE)</h4>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i><br>
+                        <button class="btn-d">Read More</button>
+                    </div>
+                    <!--End of product-overlay-->
+                </div>
+                <!--End of box-->
+
+
+                <div class="box"><img src="image/p6.jpg">
+
+                    <div class="product-overlay">
+                        <h3>PULVERIZER MACHINE</h3>
+                        <h4>(DOMESTIC)</h4>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i><br>
+                        <button class="btn-d">Read More</button>
+                    </div>
+                    <!--End of product-overlay-->
+                </div>
+                <!--End of box-->
+
+            </div>
+            <!--End of wrapper-->
+        </div>
+        <!--End of product-->
+
+    </section>
+    <!--End of product section -->
+</body>
+</html>
